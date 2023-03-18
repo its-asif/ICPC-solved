@@ -20,7 +20,7 @@ int main(){
 
     ll k, n;  cin >> k >> n;
     if (k > ((ll)1<<(n+2))) {
-        cout << "-1\n"; 
+        cout << "-1\n";
     }
     else cout << f(k, n) << "\n";
   }
